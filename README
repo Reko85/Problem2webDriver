@@ -1,0 +1,8 @@
+Find all links on a web page.
+
+You will need these NuGet packages.
+  Selenium.WebDriver
+  Selenium.Firefox.WebDriver
+  Selenium.Support
+
+Unfortunately only got it to work with Firefox.
