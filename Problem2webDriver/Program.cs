@@ -15,7 +15,7 @@ namespace Problem2webDriver
 
             ICollection<IWebElement> links = driver.FindElements(By.TagName("a"));
 
-            Console.WriteLine("Link found: ");
+            Console.WriteLine("Links found: ");
             foreach (var link in links)
                 Console.WriteLine(link.Text);
         }
